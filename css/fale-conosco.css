@@ -104,6 +104,10 @@ form input {
     background-position: 100% 100%;
 }
 
+.group label {
+    font-size: 14px;
+}
+
 #nome {
     width: 70%;
 }
@@ -132,6 +136,10 @@ form input {
 #grau-u {
     width: 50%;
     margin-right: 10px;
+}
+
+#cidade {
+    width: 50%;
 }
 
 .urgence-group input,
