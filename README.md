@@ -10,13 +10,11 @@ OBS: O site pode não estar identico, ou com as mesmas funcionalidades do origin
 
 # Algumas Imagens
 
-## Página Principal
-
-Versão desktop:
+## Versão desktop:
 
 ![image](https://user-images.githubusercontent.com/59753526/97043987-b8134a80-1549-11eb-9923-1b361395f7f9.png)
 
-Versão mobile:
+## Versão mobile:
 
 ![image](https://user-images.githubusercontent.com/59753526/97044062-d8dba000-1549-11eb-822a-cb73b541fe03.png)
 
