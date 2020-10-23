@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especificações - Google Glass</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/specs.css" />
+</head>
+
+<body>
+
+    <div class="page">
+
+        <header>
+            <hgroup>
+                <h1>Google Glass</h1>
+                <h2>A revolução do Google está chegando</h2>
+            </hgroup>
+
+            <img class="img-logo" src="img/glass-logo-peq.jpg" alt="Logo Google Glass" />
+
+            <input type="checkbox" id="menu" />
+            <label class="menu-button" for="menu"><i class="fas fa-bars"></i></label>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="specs.html">Especificações</a></li>
+                    <li><a href="fotos.html">Fotos</a></li>
+                    <li><a href="multimidia.html">Multimídia</a></li>
+                    <li><a href="fale-conosco.html">Fale conosco</a></li>
+                </ul>
+            </nav>
+
+            <img class="selected-img" src="img/especificacoes.png" alt="Item do Menu">
+        </header>
+
+        <section class="specs">
+            <span>Glass > Especificações</span>
+            <h1>Raio-X no Google Glass</h1>
+            <span class="author">por Gustavo Guanabara</span>
+            <span class="updated-date">Atualizado em 22/Outubro/2020</span>
+
+            <p>
+                Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass.
+                Qualquer
+                ponto vermelho vai te levar a um lugar cheio de novas informações.
+            </p>
+
+            <div class="details">
+                <div class="img-wrapper">
+                    <img usemap="#details-map" src="img/glass-esquema-marcado.jpg" alt="Mapa de detalhes" />
+                </div>
+
+                <iframe scrolling="no" name="google-glass" src="google-glass.html" frameborder="0"></iframe>
+            </div>
+
+            <map name="details-map">
+                <area shape="rect" coords="179,202,270,260" href="google-glass.html#tela" target="google-glass"
+                    alt="Bateria" />
+
+                <area shape="poly" coords="28,143,83,216,84,249,27,169" href="google-glass.html#sensores" alt="Sensores"
+                    target="google-glass" />
+
+                <area shape="circle" coords="73,52,12" href="google-glass.html#bateria" alt="Bateria"
+                    target="google-glass" />
+
+                <area shape="circle" coords="158,244,12" href="google-glass.html#camera" alt="Camera"
+                    target="google-glass" />
+            </map>
+        </section>
+
+        <footer>
+            <p>&copy; Copyright 2020 - by Silvano Marques</p>
+            <a target="_blank" href="https://github.com/SkyG0D"><i class="fab fa-github"></i>Github</a>
+            <a target="_blank" href="https://www.instagram.com/silvanobiel_/"><i
+                    class="fab fa-instagram"></i>Instagram</a>
+        </footer>
+    </div>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/jquery.rwdImageMaps.min.js"></script>
+    <script>
+        $(document).ready(function(e) {
+            $('img[usemap]').rwdImageMaps();
+        });
+    </script>
+    <script src="js/changeImg.js"></script>
+</body>
+
+</html>

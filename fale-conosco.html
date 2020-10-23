@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco - Google Glass</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/fale-conosco.css" />
+</head>
+
+<body>
+
+    <div class="page">
+        <header>
+            <hgroup>
+                <h1>Google Glass</h1>
+                <h2>A revolução do Google está chegando</h2>
+            </hgroup>
+
+            <img class="img-logo" src="img/glass-logo-peq.jpg" alt="Logo Google Glass" />
+
+            <input type="checkbox" id="menu" />
+            <label class="menu-button" for="menu"><i class="fas fa-bars"></i></label>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="specs.html">Especificações</a></li>
+                    <li><a href="fotos.html">Fotos</a></li>
+                    <li><a href="multimidia.html">Multimídia</a></li>
+                    <li><a href="fale-conosco.html">Fale conosco</a></li>
+                </ul>
+            </nav>
+
+            <img class="selected-img" src="img/contato.png" alt="Item do Menu">
+        </header>
+
+        <section class="fale-conosco">
+
+            <span>Fale Conosco > Contato</span>
+            <h1>Formulário de Contato</h1>
+            <span class="author">por Silvano Marques</span>
+            <span class="updated-date">Atualizado em 23/Outubro/2020</span>
+            <div class="form-glass">
+                <form action="index.html" method="GET">
+                    <fieldset class="identificacao">
+                        <legend>Identificação do Usuário</legend>
+
+                        <fieldset class="user-pass">
+                            <label for="nome">Nome:</label>
+                            <input autofocus placeholder="Nome Completo" type="text" name="nome" id="nome" />
+
+                            <div class="break"></div>
+
+                            <label for="senha">Senha:</label>
+                            <input placeholder="6 dígitos" type="password" name="senha" id="senha" />
+                        </fieldset>
+
+                        <div class="break"></div>
+
+                        <label for="email">E-mail:</label>
+                        <input placeholder="Ex: joao@gmail.com" type="email" name="email" id="email" />
+
+                        <div class="break"></div>
+
+                        <fieldset class="sexo">
+                            <legend>Sexo:</legend>
+                            <input checked type="radio" name="sexo" id="masc" />
+                            <label for="masc">Masculino</label>
+
+                            <div class="break"></div>
+
+                            <input type="radio" name="sexo" id="fem" />
+                            <label for="fem">Feminino</label>
+                        </fieldset>
+
+                        <div class="break"></div>
+
+                        <label for="nasc">Data de Nascimento:</label>
+                        <input type="date" name="nasc" id="nasc" />
+                    </fieldset>
+
+                    <fieldset class="endereco">
+                        <legend>Endereço do Usuário</legend>
+
+                        <label for="logradouro">Logradouro:</label>
+                        <input placeholder="Rua, Av, Trav..." type="text" name="logradouro" id="logradouro" />
+
+                        <div class="break"></div>
+
+                        <label for="numero">Número:</label>
+                        <input type="number" name="numero" id="numero" />
+
+                        <div class="break"></div>
+
+                        <label for="estado">Estado:</label>
+                        <select name="estado" id="estado">
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option selected value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                        </select>
+
+                        <div class="break"></div>
+
+                        <label for="cidade">Cidade:</label>
+                        <input placeholder="Sua cidade" type="text" name="cidade" id="cidade" />
+                    </fieldset>
+
+                    <fieldset class="mensagem">
+                        <legend>Mensagem</legend>
+
+                        <label for="grau-u">Grau de Urgência:</label>
+                        <span>min</span>
+                        <input type="range" name="grau-u" id="grau-u" /><span>máx</span>
+
+                        <div class="break"></div>
+
+                        <label for="msg">Mensagem:</label>
+                        <textarea placeholder="Sua mensagem..." name="msg" id="msg"></textarea>
+                    </fieldset>
+
+                    <fieldset class="pagamento">
+                        <legend>Quero um Google Glass</legend>
+
+                        <input type="checkbox" name="quero-um" id="quero-um" />
+                        <label for="quero-um">Gostaria de adquirir um Google Glass quando disponível</label>
+
+                        <div class="break"></div>
+
+                        <label for="cor">Cor:</label>
+                        <input type="color" name="cor" id="cor" />
+
+                        <div class="break"></div>
+
+                        <label for="quant">Quantidade:</label>
+                        <input type="number" name="quant" id="quant" min="1" max="10"
+                        onchange="calc();" />
+
+                        <div class="break"></div>
+
+                        <label for="tot">Preço Total: R$</label>
+                        <input placeholder="Total a pagar" type="number" name="tot" id="tot" disabled />
+                    </fieldset>
+
+                    <button type="button" ></button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; Copyright 2020 - by Silvano Marques</p>
+            <a target="_blank" href="https://github.com/SkyG0D"><i class="fab fa-github"></i>Github</a>
+            <a target="_blank" href="https://www.instagram.com/silvanobiel_/"><i
+                    class="fab fa-instagram"></i>Instagram</a>
+        </footer>
+    </div>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script type="text/javascript" src="js/changeImg.js"></script>
+    <script src="js/calcPrime.js" ></script>
+</body>
+
+</html>

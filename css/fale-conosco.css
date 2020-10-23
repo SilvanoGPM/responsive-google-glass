@@ -1,0 +1,185 @@
+.fale-conosco {
+    width: 90%;
+}
+
+.form-glass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+form {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+form button {
+    background: url('../img/botao-enviar.png') no-repeat;
+    width: 128px;
+    height: 53px;
+    cursor: pointer;
+}
+
+fieldset {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: row wrap;
+    border: 1px solid gray;
+    width: 90%;
+    padding: 5px 20px;
+    margin-bottom: 50px;
+}
+
+.user-pass {
+    padding: 0;
+    border: 0;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.sexo {
+    margin: 20px 0;
+    width: 120px;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+}
+
+.sexo legend {
+    font-size: 18px;
+}
+
+legend {
+    font-size: 25px;
+    color: rgb(41, 39, 39);
+}
+
+form label {
+    font-size: 18px;
+}
+
+form input,
+form select,
+form textarea {
+    border: 1px solid rgb(71, 69, 69);
+    margin-left: 10px;
+    padding: 5px;
+}
+
+form select {
+    margin-top: 10px;
+}
+
+form label,
+form input {
+    margin-top: 10px;
+}
+
+.identificacao {
+    background: url('../img/icone-contato.png') no-repeat;
+    background-position: 100% 100%;
+}
+
+.endereco {
+    background: url('../img/icone-endereco.png') no-repeat;
+    background-position: 100% 100%;
+}
+
+.mensagem {
+    background: url('../img/icone-mensagem.png') no-repeat;
+    background-position: 100% 100%;
+}
+
+.pagamento {
+    background: url('../img/icone-pagamento.png') no-repeat;
+    background-position: 100% 100%;
+}
+
+#nome {
+    width: 70%;
+}
+
+#senha {
+    width: 50%;
+}
+
+#email {
+    width: 70%;
+}
+
+#nasc {
+    width: 40%;
+}
+
+#logradouro {
+    width: 40%;
+    margin-right: 10px;
+}
+
+#numero {
+    width: 10%;
+}
+
+#grau-u {
+    width: 30%;
+    margin-right: 10px;
+}
+
+label[ for = "grau-u" ] {
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+label[ for = "msg" ] {
+    margin-left: 10px;
+}
+
+#msg {
+    opacity: 0.5;
+    width: 100%;
+    height: 200px;
+}
+
+label[ for = "quero-um"] {
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+#quero-um {
+    display: inline;
+}
+
+#quant {
+    width: 30%;
+}
+
+@media screen and (min-width: 600px) {
+    form {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    form {
+        width: 70%;
+    }
+    label[ for = "grau-u" ] {
+        margin-right: 10px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    form {
+        width: 55%;
+    }
+}

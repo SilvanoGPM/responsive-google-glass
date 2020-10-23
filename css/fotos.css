@@ -1,0 +1,84 @@
+.pictures {
+    width: 90%;
+}
+
+.fig {
+    display: block;
+    width: 80%;
+    background: white;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(134, 130, 130);
+    box-shadow: 1px 1px 10px black;
+    transition: .35s;
+}
+
+.pictures .fig:hover {
+    transform: scale(1.05);
+}
+
+.pictures .fig span {
+    font-size: 20px;
+    padding: 5px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    opacity: 0;
+}
+
+.pictures .fig:hover span {
+    opacity: 1;
+}
+
+.pictures img {
+    width: 100%;
+}
+
+.images {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 600px) {
+
+    .pictures img {
+        margin-right: 20px;
+    }
+
+    .images {
+        width: 90%;
+        margin: 0 auto;
+        flex-flow: row wrap;
+    }
+
+    .pictures .fig {
+        width: 40%;
+        margin-right: 20px;
+    }
+
+    .pictures .fig span {
+        font-size: 12px;
+    }
+
+    .pictures .fig:hover {
+        transform: scale(1.2);
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .pictures {
+        width: 95%;
+    }
+
+    .pictures .fig {
+        width: 25%;
+    }
+
+    .pictures .fig:hover {
+        transform: scale(1.3);
+    }
+}

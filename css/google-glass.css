@@ -1,0 +1,39 @@
+h1 {
+    background: rgb(134, 130, 130);
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+}
+
+h2 {
+    color: rgb(71, 69, 69);
+}
+
+p {
+    text-indent: 35px;
+    text-align: start;
+    padding: 10px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.detail {
+    margin-top: 400px;
+}
+
+#camera img,
+#bateria img {
+    float: left;
+    clear: both;
+    margin-right: 10px;
+}
+
+@media (max-width: 475px) {
+    #mao {
+        margin-top: 75px;
+        transform: rotate(90DEG);
+    }
+}

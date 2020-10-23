@@ -1,0 +1,31 @@
+.specs {
+    width: 90%;
+}
+
+.img-wrapper {
+    width: 100%;
+}
+
+.details iframe {
+    all: initial;
+    width: 100%;
+    height: 400px;
+}
+
+.details img {
+    width: 100%;
+    height: 280px;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 900px) {
+    .specs {
+        width: 95%;
+    }
+
+    .details {
+        display: flex;
+        flex-flow: row;
+    }
+}

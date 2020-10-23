@@ -1,0 +1,82 @@
+.multimidia {
+    width: 90%;
+}
+
+.midias {
+    position: relative;
+    background: url('../img/radio-tv.png') no-repeat;
+    background-size: 350px;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+}
+
+.midias iframe {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    width: 180px;
+    height: 130px;
+    border: 0;
+}
+
+.midias audio {
+    position: absolute;
+    top: 190px;
+    left: 220px;
+    width: 120px;
+    height: 20px;
+    background: brown;
+    color: brown;
+}
+
+@media screen and (min-width: 600px) {
+    .midias {
+        background-size: 500px;
+    }
+
+    .midias iframe {
+        top: 30px;
+        left: 35px;
+        width: 250px;
+        height: 160px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+
+    .midias audio {
+        top: 270px;
+        left: 315px;
+        width: 173px;
+        height: 30px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .midias {
+        margin: 0 15%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .midias {
+        background-size: 700px;
+        margin: 0 13%;
+    }
+
+    .midias iframe {
+        top: 45px;
+        left: 50px;
+        width: 350px;
+        height: 250px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+
+    .midias audio {
+        top: 381px;
+        left: 441px;
+        width: 243px;
+        height: 40px;
+    }
+}
