@@ -5,7 +5,7 @@
 .midias {
     position: relative;
     background: url('../img/radio-tv.png') no-repeat;
-    background-size: 350px;
+    background-size: 320px;
     width: 100vw;
     height: 100vh;
     display: block;
@@ -15,16 +15,16 @@
     position: absolute;
     top: 15px;
     left: 20px;
-    width: 180px;
-    height: 130px;
+    width: 160px;
+    height: 110px;
     border: 0;
 }
 
 .midias audio {
     position: absolute;
-    top: 190px;
-    left: 220px;
-    width: 120px;
+    top: 172px;
+    left: 202px;
+    width: 110px;
     height: 20px;
     background: brown;
     color: brown;

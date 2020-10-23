@@ -4,5 +4,9 @@ function calc() {
     const total = document.getElementById("tot");
     const quant = document.getElementById("quant").value;
     const price = GLASS_PRICE * quant;
-    total.value = (price >= 0)   ? price : 0;
+    if (price >= 0 && price <= 10) {
+        total.value = price;
+    } else {
+        total.value = 0;
+    }
 }

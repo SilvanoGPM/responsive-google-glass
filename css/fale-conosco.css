@@ -130,8 +130,13 @@ form input {
 }
 
 #grau-u {
-    width: 30%;
+    width: 50%;
     margin-right: 10px;
+}
+
+.urgence-group input,
+.urgence-group span {
+    display: inline;
 }
 
 label[ for = "grau-u" ] {
@@ -150,7 +155,7 @@ label[ for = "msg" ] {
 }
 
 label[ for = "quero-um"] {
-    font-size: 13px;
+    font-size: 16px;
     margin-left: 5px;
 }
 

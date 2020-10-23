@@ -135,8 +135,11 @@
                         <legend>Mensagem</legend>
 
                         <label for="grau-u">Grau de Urgência:</label>
-                        <span>min</span>
-                        <input type="range" name="grau-u" id="grau-u" /><span>máx</span>
+
+                        <div class="urgence-group">
+                            <span>min</span>
+                            <input type="range" name="grau-u" id="grau-u" /><span>máx</span>
+                        </div>
 
                         <div class="break"></div>
 
@@ -147,8 +150,10 @@
                     <fieldset class="pagamento">
                         <legend>Quero um Google Glass</legend>
 
-                        <input type="checkbox" name="quero-um" id="quero-um" />
-                        <label for="quero-um">Gostaria de adquirir um Google Glass quando disponível</label>
+                        <div>
+                            <input type="checkbox" name="quero-um" id="quero-um" />
+                            <label for="quero-um">Gostaria de adquirir um Google Glass quando disponível</label>
+                        </div>
 
                         <div class="break"></div>
 
@@ -158,8 +163,7 @@
                         <div class="break"></div>
 
                         <label for="quant">Quantidade:</label>
-                        <input type="number" name="quant" id="quant" min="1" max="10"
-                        onchange="calc();" />
+                        <input type="number" name="quant" id="quant" min="1" max="10" onchange="calc();" />
 
                         <div class="break"></div>
 
@@ -167,7 +171,7 @@
                         <input placeholder="Total a pagar" type="number" name="tot" id="tot" disabled />
                     </fieldset>
 
-                    <button type="button" ></button>
+                    <button type="button"></button>
                 </form>
             </div>
         </section>
@@ -182,7 +186,7 @@
 
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script type="text/javascript" src="js/changeImg.js"></script>
-    <script src="js/calcPrime.js" ></script>
+    <script src="js/calcPrime.js"></script>
 </body>
 
 </html>
