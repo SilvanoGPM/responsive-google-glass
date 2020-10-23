@@ -8,6 +8,8 @@ Minha motivação para recriar o site, mesmo já tendo feito o curso deles antes
 
 OBS: O site pode não estar identico, ou com as mesmas funcionalidades do original, o motivo é que refiz tudo do zero, sem ver o curso nem com auxílio de nínguem. As únicas coisas que usei deles foi o layout e a ideia(bascimente tudo, menos o código).
 
+Link para o site: [Google Glass](https://skyg0d.github.io/responsive-google-glass/)
+
 # Algumas Imagens
 
 ## Versão desktop:
